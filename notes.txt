@@ -1,0 +1,25 @@
+https://www.youtube.com/watch?v=zFw19qGAeGo
+
+1. python -m pip install uv
+2. uv init .
+3. uv add agentspan
+
+5. other install uv add python-dotenv pydantic firecrawl-py
+
+# start/stop the server
+    uv run agentspan server stop
+    uv run agentspan server start
+# run the agent
+    uv run agents/agent_mem.py
+
+
+
+git config user.name
+git config user.email
+git add .gitignore
+git add .
+git commit --amend --reset-author --no-edit
+
+
+
+
